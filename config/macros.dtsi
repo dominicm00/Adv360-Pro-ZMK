@@ -1,3 +1,9 @@
+macro_mc_tooltip: macro_mc_tooltip{
+compatible = "zmk,behavior-macro";
+label = "macro_mc_tooltip";
+#binding-cells = <0>;
+bindings = <&sk F3>, <&kp H>;
+};
 macro_html_tag: macro_html_tag{
 compatible = "zmk,behavior-macro";
 label = "macro_html_tag";
